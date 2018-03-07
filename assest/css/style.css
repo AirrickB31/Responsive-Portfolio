@@ -1,0 +1,265 @@
+* {
+    
+    box-sizing: border-box;
+}
+
+  
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    /* background-image: url("../images/fergri.png"); */
+    /* background-color: #cccccc; */
+  
+        background: url("../images/fergie.png")  no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    height: 67px;
+    background-image: url("../images/fergie1.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    
+}
+footer {
+    overflow: auto;
+    width: 100%;
+    text-align: center;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#fff;
+    background-color: #666;
+    height: 80px;
+    border-top: 10px solid #4aaaa5;
+    position: fixed;
+    bottom:0px;
+}
+
+h1 {
+    font-size: 25px;
+    border-bottom: 3px solid #ddd;
+}
+h2 {
+    font-size: 20px;
+    border-bottom: 2px solid #ddd;
+}
+h1, h2 {
+    color: #4aaaa5;
+    padding-bottom: 25px;
+}
+h6 {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+h1, h2, h3 {
+    font-family: 'Georgia', Times, serif;
+}
+
+.logo{
+    background-image: url("../images/fergie1.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
+    padding: 20px;
+    float: left;
+    margin-left: 470px;
+   
+}
+.logo a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+}
+#main {
+    float: left;
+    width: 650px;
+    margin-left: -185px;
+}
+#sidebar {
+    float:right;
+    width: 270px;
+    margin-right: 470px;
+    
+}
+
+.fa {
+    padding: 20px;
+    font-size: 45px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    float: center;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-linkedin{
+    background: #0077B5;
+    color: white;
+    
+}
+
+#main, #sidebar {
+    padding:40px 20px;
+    margin-top:40px;
+    margin-bottom:40px;
+    
+    background-image: url("../images/fergie1.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
+}
+ img{
+    width: 33.3%;
+    float: left;
+    padding: 20px;
+}
+section {
+    margin: 20px 20px 0px 0px;
+}
+ul, li {
+    color: #a5a5a5;
+    display: inline;
+    font-weight: 100;
+}
+nav {
+    padding-top:30px;
+    padding-right: 15px;
+    float: right;
+    margin-right: 470px;
+}
+#main p {
+    line-height: 2;
+    color: #a5a5a5;
+}
+.main {
+    margin-bottom: 40px;
+    min-height: 760px;
+}
+.portfolio.main {
+    min-height: 1040px;
+}
+input[type=text], textarea {
+    display: inline-block;
+    border: 1px solid #ddd;
+    font-size: 15px;
+    width: 100%;
+    padding: 10px 12px;
+    margin: 10px 0 15px;
+    box-sizing: border-box;
+    
+}
+
+input[type=submit] {
+    padding: 1px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    width: 20%;
+    background-color: #4aaaa5;
+    color: white;
+}
+#name, #email, #message {
+    color: black;
+}
+
+textarea {
+    min-height: 250px;
+}
+form {
+    margin-top: 20px;
+}
+label {
+    color: #a5a5a5;
+}
+
+.uid1 {
+    padding-top:150px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    width: 48%;
+    height: 220px;
+    margin-top: 30px;
+}
+.uid2 {
+    float: left;
+    
+}
+.uid3 {
+    float: right;
+}
+.uid1 h3 {
+    font-size: 20px;
+    color: #fff;
+    background-color: #4aaaa5;
+    padding: 20px 0;
+}
+.hangman {
+    background-image: url("../images/fergie1.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+  
+.rpg {
+    background-image: url("../images/fergie1.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
+}
+.trivia {
+    background-image: url("../images/fergie1.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
+}
+.rutgers {
+    background-image: url("../images/fergie1.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
+}
+.rockpaper {
+    background-image: url("../images/fergie1.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
+}
+#sidebar img {
+    margin-top: 30px;
+    width: 60px;
+}
+#sidebar img:hover {
+    border: 2px solid #fff;
+}
+
