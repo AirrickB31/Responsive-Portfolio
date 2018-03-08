@@ -1,36 +1,30 @@
+
+
 * {
     
     box-sizing: border-box;
 }
 
-  
-a {
-    text-decoration: none;
-    color: inherit;
-}
 
 body {
-    /* background-image: url("../images/fergri.png"); */
-    /* background-color: #cccccc; */
-  
-        background: url("../images/fergie.png")  no-repeat center center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-      
-    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../images/dust_scratches.png");
+    
 }
 header {
-    height: 67px;
-    background-image: url("../images/fergie1.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    height: 70px;
+    background-color: #fff;
+    border-bottom: #cccccc;
+
     
     
 }
+.content{
+    width: 960px;
+    margin: 0px auto;
+    color:  #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
 footer {
     overflow: auto;
     width: 100%;
@@ -43,60 +37,47 @@ footer {
     position: fixed;
     bottom:0px;
 }
-
-h1 {
-    font-size: 25px;
-    border-bottom: 3px solid #ddd;
-}
-h2 {
-    font-size: 20px;
-    border-bottom: 2px solid #ddd;
-}
-h1, h2 {
-    color: #4aaaa5;
-    padding-bottom: 25px;
-}
-h6 {
-    margin-top: 20px;
-    font-size: 20px;
-    font-weight: 100;
-    margin-bottom: 5px;
-}
-h1, h2, h3 {
-    font-family: 'Georgia', Times, serif;
-}
-
-.logo{
-    background-image: url("../images/fergie1.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  
+.name{
+    background-color: #4aaaa5;
     padding: 20px;
     float: left;
-    margin-left: 470px;
-   
-}
-.logo a {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
     font-size: 25px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #ffffff;
 }
-#main {
-    float: left;
+#DreDay{
+height: 250px;
+width: 200px;
+float: left;
+padding: 15px;
+}
+.main{
+    background-color: #ffffff;
     width: 650px;
-    margin-left: -185px;
-}
-#sidebar {
-    float:right;
+    float: left;
+    padding: 20px;
+    border-color:#cccccc;
+    border-style: solid;
+    border-width: 1pt;
+    margin-top:20px;
+    overflow: auto;
+    }
+    p{
+        overflow: auto;
+        }
+aside{
     width: 270px;
-    margin-right: 470px;
-    
-}
+    background-color: white;
+    float: right;
+    margin: 20px;
+    margin-right: 180px;
+    padding: 20px;
+    overflow: auto;
+    display: block;
+    border-color:#cccccc;
+    border-style: solid;
+    border-width: 1pt;
 
+    }
 .fa {
     padding: 20px;
     font-size: 45px;
@@ -115,49 +96,47 @@ h1, h2, h3 {
     color: white;
     
 }
-
-#main, #sidebar {
-    padding:40px 20px;
-    margin-top:40px;
-    margin-bottom:40px;
-    
-    background-image: url("../images/fergie1.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  
+h1 {
+    color:#4aaaa5;
+    font-size: 25px;
+    border-bottom: 2px solid#a5a5a5;
+    padding-bottom: 10px;
 }
- img{
+h2 {
+    font-size: 20px;
+    text-align: center;
+    color: #4aaaa5;
+    border-bottom: 2px solid #a5a5a5;
+ padding-bottom: 10px;
+}
+
+h1, h2, h3 {
+    font-family: 'Georgia', Times, serif;
+}
+nav{
+    padding: 23px;
+    float: right;
+    }
+ul, li {
+    color: #a5a5a5;
+    display: inline;
+    font-weight: 100;
+    text-decoration-color: black !important;
+    }
+
+
+img{
     width: 33.3%;
     float: left;
     padding: 20px;
 }
-section {
-    margin: 20px 20px 0px 0px;
-}
+
 ul, li {
     color: #a5a5a5;
     display: inline;
     font-weight: 100;
 }
-nav {
-    padding-top:30px;
-    padding-right: 15px;
-    float: right;
-    margin-right: 470px;
-}
-#main p {
-    line-height: 2;
-    color: #a5a5a5;
-}
-.main {
-    margin-bottom: 40px;
-    min-height: 760px;
-}
-.portfolio.main {
-    min-height: 1040px;
-}
+ 
 input[type=text], textarea {
     display: inline-block;
     border: 1px solid #ddd;
@@ -189,10 +168,12 @@ textarea {
 form {
     margin-top: 20px;
 }
+
 label {
     color: #a5a5a5;
 }
-
+ 
+ 
 .uid1 {
     padding-top:150px;
     text-align: center;
@@ -216,50 +197,119 @@ label {
     padding: 20px 0;
 }
 .hangman {
-    background-image: url("../images/fergie1.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-image: url("../images/1.jpg");
+    
 }
   
 .rpg {
-    background-image: url("../images/fergie1.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-image: url("../images/2.jpg") ; 
   
 }
 .trivia {
-    background-image: url("../images/fergie1.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  
+    background-image: url("../images/3.jpg");
+   
 }
 .rutgers {
-    background-image: url("../images/fergie1.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  
+    background-image: url("../images/4.jpg"); 
+    
 }
 .rockpaper {
-    background-image: url("../images/fergie1.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-image: url("../images/5.jpg") 
   
 }
-#sidebar img {
-    margin-top: 30px;
-    width: 60px;
-}
-#sidebar img:hover {
-    border: 2px solid #fff;
-}
 
+
+@media screen and (max-width: 980px) {
+   
+    
+    nav{
+        padding: 23px;  
+        float:right;
+        margin-right: 180px;
+
+	}
+    .main{
+        background-color: #ffffff;
+        width: 400px;
+        float: left;
+        padding: 20px;
+        border-color:#cccccc;
+        border-style: solid;
+        border-width: 1pt;
+        margin-top:20px;
+        overflow: auto;
+        }
+@media screen and (max-width: 768px) {
+
+
+    nav{
+        padding: 23px;  
+        float:right;
+        margin-right: 180px;
+
+    }
+    .main{
+        background-color: #ffffff;
+        width: 400px;
+        float: left;
+        padding: 20px;
+        border-color:#cccccc;
+        border-style: solid;
+        border-width: 1pt;
+        margin-top:20px;
+        overflow: auto;
+        }
+@media screen and (max-width: 640px) {
+
+
+    nav{
+        padding: 23px;  
+        float: bottom;
+        margin-right: 500px;
+
+    }
+    .main{
+        background-color: #ffffff;
+        width: 500px;
+        
+        padding: 20px;
+        border-color:#cccccc;
+        border-style: solid;
+        border-width: 1pt;
+        margin-top:20px;
+        overflow: auto;
+        margin: 50px;
+        }
+        aside{
+            width: 500px;
+            background-color: white;
+            
+            
+            
+            padding: 20px;
+            border-color:#cccccc;
+            border-style: solid;
+            border-width: 1pt;
+            margin: 50px;
+            }
+            .fa {
+                padding: 20px;
+                font-size: 45px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+                float: center;
+            }
+            
+            .fa-facebook {
+                background: #3B5998;
+                color: white;
+            }
+            .fa-linkedin{
+                background: #0077B5;
+                color: white;
+                
+            }
+}
+}
+}
